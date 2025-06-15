@@ -29,7 +29,7 @@ export default async function Page() {
           pendingTasks.map((note) => <TodoItem key={note._id} note={note} />)
         ) : (
           <p className="text-gray-500 text-sm">
-            You don't have any pending tasks yet. Add more!
+            {"You don't have any pending tasks yet. Add more!"}
           </p>
         )}
       </div>
